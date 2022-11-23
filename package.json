@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port=3000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -25,8 +25,8 @@
     "eslint-plugin-vue": "^8.0.3",
     "prettier": "^2.4.1",
     "typescript": "~4.5.5",
-    "unplugin-vue-components": "^0.19.3",
-    "windicss-webpack-plugin": "^1.6.10"
+    "unplugin-vue-components": "^0.22.11",
+    "windicss-webpack-plugin": "^1.7.7"
   },
   "eslintConfig": {
     "root": true,
